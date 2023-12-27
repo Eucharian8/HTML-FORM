@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML FORM</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+   <form action="" method="post">
+    <fieldset>
+        <legend>  Your address </legend>
+        <div>
+            <label for="First name">First name</label>
+            <input type="text" required" />
+        </div>
+        <div>
+            <label for="Last name">Last name</label>
+            <input type="text" required" />
+        </div>
+        <div>
+            <label for="Street">Street</label>
+            <input type="text" required" />
+        </div>
+        <div>
+            <label for="City">City</label>
+            <input type="text" required />
+        </div>
+    </fieldset>
+
+    <fieldset>
+        <legend>Additional details</legend>
+        <div>
+            <label for="Biography"> Biography </label>
+            <textarea name="message" id="" cols="30" rows="5"> </textarea>
+        </div>
+        <div>
+            <label for="">Image</label>
+            <input type="file" />
+        </div>
+        <div>
+            <label for="">Age Group</label>
+            <select name="" id="">
+            <option value="0 to 9 years"> 0 to 9 years</option>         
+            </select>
+        </div>
+    </fieldset>
+    <fieldset>
+        <legend> Interests </legend>
+        <div>
+            <label for=""> Hobbies </label>
+            <textarea name="message" id="" cols="30" rows="5"> </textarea>
+        </div>
+        <div>
+            <label for="">Favourite car?</label>
+            <select name="" id="">
+                <option value="volvo">Volvo</option>
+            </select>
+        </div>
+        <div>
+            <label for="">Favourite public Transport?</label>
+            <select name="" id="">
+                <optgroup label="Ground">
+                <option value="">Train</option>
+                <option value="">Bus</option>
+                </optgroup>
+
+                <optgroup label="Water">
+                </optgroup>
+            </select>
+        </div>
+    </fieldset>
+   </form> 
+</body>
+</html>
